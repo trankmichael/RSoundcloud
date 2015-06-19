@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+require 'soundcloud'
+require 'soundcloudcli'
+
+begin 
+	Soundcloudcli.print
+	puts "\n"
+	puts Soundcloudcli.track_id('https://soundcloud.com/ramriddlz/p2p-iii-prod-jaegen')
+end;

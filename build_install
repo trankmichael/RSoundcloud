@@ -1,0 +1,4 @@
+# script to build and install ruby gem soundcloudcli
+
+gem build soundcloudcli.gemspec
+sudo gem install soundcloudcli-0.0.0.gem
